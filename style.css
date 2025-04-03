@@ -1,6 +1,6 @@
 body {
-  background-color: aliceblue;
-  text-align: center;
+  background-color: rgb(255, 195, 218);
+  text-align: right;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; 
@@ -14,28 +14,32 @@ html{
 }
 
 #myCanvas {
-  border: 1px solid black;
+  border: 10px solid rgb(255, 214, 237);
+  
 }
 
 .container{
   display: flex;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgb(255, 237, 250);
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 20px;
 }
 
 .pic{
-  height: 450px;
-  width: 600px;
+  height: 100px;
+  width: 670px;
   object-fit: cover;
-  border: 1px solid black;
+  border: px solid black;
 }
 
 h2{
-  color: black;
+  color: rgb(243, 197, 223 );
 /*   font-size: 10px; */
+}
+h4{
+  color: rgb(243, 197, 223 );
 }
 
 #start{
